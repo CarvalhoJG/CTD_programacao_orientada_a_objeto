@@ -1,5 +1,7 @@
 package aula03;
 
+import java.util.Scanner;
+
     //Quando desejo isolar uma ação da minha classe que envolve atributos eu crio um metodo ou função
 
     /*Estrutura das funções:
