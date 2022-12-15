@@ -62,7 +62,7 @@ import java.util.Scanner;
 
             /*Aqui chamamos a funçõa eDivisivel e setamos os valores de numero 1 e numero 2.*/
 
-            //Aula03 20 minutos
+            
         }
     }
 
