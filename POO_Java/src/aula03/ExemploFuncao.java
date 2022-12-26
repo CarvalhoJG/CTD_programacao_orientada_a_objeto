@@ -1,5 +1,7 @@
 package aula03;
 
+import java.util.Scanner;
+
     //Quando desejo isolar uma ação da minha classe que envolve atributos eu crio um metodo ou função
 
     /*Estrutura das funções:
@@ -60,7 +62,7 @@ package aula03;
 
             /*Aqui chamamos a funçõa eDivisivel e setamos os valores de numero 1 e numero 2.*/
 
-            //Aula03 20 minutos
+            
         }
     }
 
