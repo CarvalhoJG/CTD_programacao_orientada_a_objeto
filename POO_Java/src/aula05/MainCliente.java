@@ -1,6 +1,6 @@
 package aula05;
 
-public class Main {
+public class MainCliente {
     public static void main(String[] args) {
 
         Cliente clienteDiana = new Cliente(1, "Diana");

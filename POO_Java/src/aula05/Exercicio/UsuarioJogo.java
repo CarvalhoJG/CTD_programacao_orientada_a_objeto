@@ -1,4 +1,4 @@
-package aula05;
+package aula05.Exercicio;
 
 /*Enunciado do exercicio esta em UML_UsuarioJogo.png*/
 

@@ -1,0 +1,53 @@
+public class ExercicioMesaUsuarioJogo {
+    private String nome;
+    private String nickname;
+    private int pontuacao;
+    private int nivel;
+ public ExercicioMesaUsuarioJogo(String nome, String nickname) {
+    this.nome=nome;
+    this.nickname=nickname;
+    pontuacao=0;
+    nivel=0;
+ }
+ public void aumentarPontuacao(){
+    pontuacao++;
+ }
+ public void subirNivel(){
+    nivel++;
+ }
+ public void bonus(int bonus){
+    pontuacao+=bonus;
+ }
+ public String getNome() {
+    return nome;
+ }
+ public int getPontuacao() {
+    return pontuacao;
+ }
+ public int getNivel() {
+    return nivel;
+ }
+ public void setNome(String nome) {
+    this.nome = nome;
+ }
+ public void setPontuacao(int pontuacao) {
+    this.pontuacao = pontuacao;
+ }
+ public void setNivel(int nivel) {
+    this.nivel = nivel;
+ }
+}
+Clase Main
+public class ExecucaoExercicioMesaUsuarioJogo {
+ public static void main(String[] args) {
+    ExercicioMesaUsuarioJogo usuario = new
+    ExercicioMesaUsuarioJogo("jogador1","12345");
+    System.out.println("O usuario " + usuario.getNome() + " nivel " + usuario.getNivel() + "pontuação " + usuario.getPontuacao());
+    usuario.aumentarPontuacao();
+    usuario.aumentarPontuacao();
+    usuario.subirNivel();
+    System.out.println("O usuario " + usuario.getNome() + " nivel " + usuario.getNivel() + "pontuação " + usuario.getPontuacao());
+    usuario.bonus(100);
+    System.out.println("O usuario " + usuario.getNome() + " nivel " + usuario.getNivel() + "pontuacao " + usuario.getPontuacao());
+ }
+}
