@@ -1,6 +1,8 @@
 package aula01;
 
 public class DeclaraçãoTipoPrimitivoWrapper {
+
+
      /* Tipos primitivos
     byte
     short
@@ -20,7 +22,10 @@ public class DeclaraçãoTipoPrimitivoWrapper {
     Alem de permitir armazenar um valor,
     possibilita utilizar funções/operações já definidas.
     Todas as classes WRAPPERS emglobam dentro de si seus
-    respectivos tipos primitivos.*/
+    respectivos tipos primitivos.
+
+    Atributos/Variaveis SEMPRE iniciam com letra minuscula
+    */
 
     char sexo = 'M';
     int mes = 12;
