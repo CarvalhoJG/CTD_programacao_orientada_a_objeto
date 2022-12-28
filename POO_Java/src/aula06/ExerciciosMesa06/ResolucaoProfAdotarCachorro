@@ -1,0 +1,105 @@
+/*
+
+import java.time.LocalDateTime;
+
+public class AdocaoCachorroExercicioMesa {
+
+    /*Imagine uma instituição que adota cachorros, e para a adoção é obrigatório
+     que os cachorros registrados em no sistema possuam informações como: está
+      apto ou não para a adoção, raça, ano aproximado de nascimento, peso,
+      possuem chip ou não, estejam feridos ou não e atribuído o primeiro
+      nome para eles na instituição. Precisaremos saber a idade do cachorro e
+      validar se ele possui um chip para localização.
+      Um cachorro pode ser encaminhado para adoção se não estiver ferido e
+      pesar mais de 5 kg.*/
+
+    private String nome;
+    private String raca;
+    private boolean emAdocao;
+    private int anoNascimento;
+    private double peso;
+    private boolean temChip;
+    private boolean estaFerido;
+
+
+    public AdocaoCachorroExercicioMesa(String nome, String raca) {
+        this.nome = nome;
+        this.raca = raca;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    public boolean isEmAdocao() {
+        return emAdocao;
+    }
+
+    public void setEmAdocao(boolean emAdocao) {
+        this.emAdocao = emAdocao;
+    }
+
+    public int getAnoNascimento() {
+        return anoNascimento;
+    }
+
+    public void setAnoNascimento(int anoNascimento) {
+        this.anoNascimento = anoNascimento;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public boolean isTemChip() {
+        return temChip;
+    }
+
+    public void setTemChip(boolean temChip) {
+        this.temChip = temChip;
+    }
+
+    public boolean isEstaFerido() {
+        return estaFerido;
+    }
+
+    public void setEstaFerido(boolean estaFerido) {
+        this.estaFerido = estaFerido;
+    }
+
+    public int obterIDade(){
+        return LocalDateTime.now().getYear() - this.anoNascimento;
+    }
+
+
+    public boolean podePerder(){
+        return !this.temChip;
+    }
+
+    public void enviarAdocao(){
+        if(!this.estaFerido && this.peso > 5) {
+            this.emAdocao = true;
+        }else{
+            System.out.println("Não se encaixa nos requisitos de adoção");
+        }
+
+    }
+
+}
+*/
